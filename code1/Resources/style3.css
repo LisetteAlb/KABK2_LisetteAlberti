@@ -1,0 +1,40 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial,Helvetica, serif;
+}
+h1 {
+    color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 0 0 3px #ae00ff;
+}
+h2 {
+    color: #1500ff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align:left;
+    text-shadow: 0 0 3px #000000;
+}
+h3 {
+    color: #1500ff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 0 0 3px #000000;
+}
+p {
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: #008812;
+    text-shadow: 0 0 3px #ae00ff;
+  }
+  p {
+    animation: animated-text 2s steps(30,end) 1s 1 normal both;
+  }
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 1100px;}
+  }
